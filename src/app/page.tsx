@@ -1,6 +1,9 @@
+import type { Metadata } from 'next'
 import TransitionPage from '@/components/transition-page';
 import CoverParticles from '../components/cover-particles';
 import Introduction from '@/components/introduction';
+
+
 
 export default function Home() {
   return (

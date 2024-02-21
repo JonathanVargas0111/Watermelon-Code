@@ -2,9 +2,17 @@ import Avatar from '@/components/avatar'
 import CircleImage from '@/components/circle-image'
 import SliderServices from '@/components/slider-services'
 import TransitionPage from '@/components/transition-page'
+import { Metadata } from 'next'
 import React from 'react'
 
+export const metadata: Metadata = {
+  title: 'Watermelon Code - Servicios de Desarrollo Web Frontend y Branding',
+  description: 'Watermelon Code ofrece servicios de desarrollo web frontend especializados en la creación de sitios web y aplicaciones atractivas y funcionales. Además, proporcionamos servicios de branding para desarrollar una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales. Contáctanos para obtener más información.',
+  keywords: 'Watermelon Code, desarrollo web, frontend, branding, identidad de marca, diseño de logotipo, diseño web, interfaces web, experiencia del usuario, HTML, CSS, JavaScript, presencia en línea',
+};
+
 const ServicePage = () => {
+
   return (
     <>
       <TransitionPage />
