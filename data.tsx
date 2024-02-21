@@ -31,7 +31,7 @@ export const itemsNavbar = [
         id: 2,
         title: "User",
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
-        link: "/about-me",
+        link: "/about",
     },
     {
         id: 3,
@@ -250,22 +250,26 @@ export const dataTestimonials = [
 export const dataTeam = [
     {
         id: 1,
-        name: "Felipe",
-        imgURl:"/batman.png",
+        name: "felipe",
+        imgURl: "/dev-felipe.png",
+        role: "Desarrollador Web",
+        experience: "5 años de experiencia",
+        education: "Licenciatura en Ciencias de la Computación",
+        skills: [ "Tailwind", "JavaScript", "React.js", "Node.js","Nextjs"],
         socialNetworks:[
             {
                 id: 1,
-                logo: <Linkedin size={30} strokeWidth={1} />,
+                logo: <Linkedin size={20} strokeWidth={1} />,
                 src: "#!",
             },
             {
                 id: 2,
-                logo: <Twitter size={30} strokeWidth={1} />,
+                logo: <Twitter size={20} strokeWidth={1} />,
                 src: "#!",
             },
             {
                 id: 3,
-                logo: <Instagram size={30} strokeWidth={1} />,
+                logo: <Instagram size={20} strokeWidth={1} />,
                 src: "#!",
             },
         ],
@@ -273,25 +277,29 @@ export const dataTeam = [
     },
     {
         id: 2,
-        name: "Cristian",
-        imgURl:"/daredevil.png",
+        name: "cristian",
+        imgURl: "/dev-cristian.png",
+        role: "Diseñador UX/UI",
+        experience: "3 años de experiencia",
+        education: "Diplomado en Diseño de Experiencia de Usuario",
+        skills: ["Diseño de interfaz de usuario", "Prototipado", "Usabilidad", "Adobe XD", "Figma"],
         socialNetworks:[
             {
                 id: 1,
-                logo: <Linkedin size={30} strokeWidth={1} />,
+                logo: <Linkedin size={20} strokeWidth={1} />,
                 src: "#!",
             },
-            {
+            /* {
                 id: 2,
-                logo: <Twitter size={30} strokeWidth={1} />,
+                logo: <Twitter size={20} strokeWidth={1} />,
                 src: "#!",
-            },
+            }, */
             {
                 id: 3,
-                logo: <Instagram size={30} strokeWidth={1} />,
+                logo: <Instagram size={20} strokeWidth={1} />,
                 src: "#!",
             },
         ],
-        description: "Soy un desarrollador web apasionado por la tecnología y el desarrollo de aplicaciones web. Me encanta crear cosas y compartirlas con el mundo. ¡Si estás buscando un desarrollador web confiable, estoy aquí para ayudarte!",
+        description: "Soy un diseñador UX/UI apasionado por crear experiencias digitales atractivas y fáciles de usar. Me esfuerzo por diseñar interfaces que no solo sean hermosas, sino también funcionales y centradas en el usuario. ¡Espero poder ayudarte a llevar tu proyecto al siguiente nivel!",
     },
 ]
