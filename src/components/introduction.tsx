@@ -34,7 +34,7 @@ const Introduction = () => {
                         Tu socio en desarrollo y diseño web. Con sede en Bogotá, nos especializamos en combinar diseño y funcionalidad para ofrecerte experiencias digitales innovadoras y accesibles
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-                        <a href="/projects" 
+                        <a href="/portfolio" 
                             className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit text-watermelon border-watermelon rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Ver proyectos
                         </a>
